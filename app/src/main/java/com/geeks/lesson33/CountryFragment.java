@@ -75,8 +75,8 @@ public class CountryFragment extends Fragment implements onItemClick {
         countries.add(new Country("Argentina", "https://m.media-amazon.com/images/I/61H5FszKQvL._AC_UF1000,1000_QL80_.jpg", listArgentina));
         countries.add(new Country("Bolivia", "https://cdn.britannica.com/54/6754-050-897FBD93/Flag-Bolivia.jpg", listBolivia));
         countries.add(new Country("Chile", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz3KlVNpuGO8tTjpAAolF2iDUk6wWf2o41PQ&s", listChile));
-
     }
+
 
     private void loadAustralia() {
         ArrayList<Continent> listAustralia = new ArrayList<>();
@@ -150,20 +150,20 @@ public class CountryFragment extends Fragment implements onItemClick {
 
     private void loadAsia() {
         ArrayList<Continent> listKyrgyzstan = new ArrayList<>();
-        listKyrgyzstan.add(new Continent("Bishkek", ""));
-        listKyrgyzstan.add(new Continent("Osh", ""));
-        listKyrgyzstan.add(new Continent("Naryn", ""));
+        listKyrgyzstan.add(new Continent("Bishkek", "https://too.kg/wp-content/uploads/original_bishkek_photo_hdzugvz-e1523868725389.jpg"));
+        listKyrgyzstan.add(new Continent("Osh", "https://too.kg/en/wp-content/uploads/DSC_0576-1024x681.jpg"));
+        listKyrgyzstan.add(new Continent("Naryn", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6xiAC9bXi5beuC0Tqw8CXb7nDuOlH3_rpTg&s"));
 
 
         ArrayList<Continent> listUzbekistan = new ArrayList<>();
-        listUzbekistan.add(new Continent("Tashkent", ""));
-        listUzbekistan.add(new Continent("Buhara", ""));
-        listUzbekistan.add(new Continent("Samarkand", ""));
+        listUzbekistan.add(new Continent("Tashkent", "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/fb/7b/tashkent.jpg?w=1400&h=1400&s=1"));
+        listUzbekistan.add(new Continent("Buhara", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZDT83N9SqieAkaQLCevW1JugR2qV_Q9AQRA&s"));
+        listUzbekistan.add(new Continent("Samarkand", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScuaQPLs6n-xwOv-qG02OQMuA2KZYQXQGeBA&s"));
 
         ArrayList<Continent> listKazahstan = new ArrayList<>();
-        listKazahstan.add(new Continent("Almaty", ""));
-        listKazahstan.add(new Continent("Astana", ""));
-        listKazahstan.add(new Continent("Aktau", ""));
+        listKazahstan.add(new Continent("Almaty", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh-drDisCeYompygUIDA9eJzEdjrEah3AjxA&s"));
+        listKazahstan.add(new Continent("Astana", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS4tbnY1-gg4RFlZ5o5_Aq5lIdzRlit6fgzA&s"));
+        listKazahstan.add(new Continent("Aktau", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJuRESwvcBZoIShZikXBAuUiyhpSEYIcmSng&s"));
 
         countries.add(new Country("Kyrgyzstan", "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Kyrgyzstan.svg/640px-Flag_of_Kyrgyzstan.svg.png", listKyrgyzstan));
         countries.add(new Country("Uzbekistan", "https://cdn.britannica.com/47/7247-050-BEEDE5E3/Flag-Uzbekistan.jpg", listUzbekistan));
